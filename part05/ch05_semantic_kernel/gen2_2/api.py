@@ -48,7 +48,7 @@ async def generate_novel(req: UserRequest) -> Dict[str, str]:
     )
     variables["novel_plot"] = res.result
 
-    return {"results": "해당 파일은 Plot 까지만 생성합니다.\n" + variables["novel_plot"]}
+    return {"results": "해당 파일은 Plot 까지만 생성합니다.\n\n" + variables["novel_plot"]}
 
 
 if __name__ == "__main__":
