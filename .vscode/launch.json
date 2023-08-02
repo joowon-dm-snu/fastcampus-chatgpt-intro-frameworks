@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Unit Test",
+            "type": "python",
+            "request": "launch",
+            "purpose": "debug-test",
+            "justMyCode": false,
+            "program": "${file}"
+        },
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:azureFunctions.pickProcess}"
+        }
+    ],
+    "version": "0.2.0"
+}

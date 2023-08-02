@@ -1,0 +1,23 @@
+{
+  // python
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": false,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.formatting.provider": "none",
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.linting.pylintEnabled": false,
+  "[python]": {
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.wordBasedSuggestions": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true, //isort
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
