@@ -1,0 +1,11 @@
+Your job is to read the <message>, analyze it, and tell me why this error occurred.
+
+<related_materials>
+{{$related_materials}}
+</related_materials>
+
+<message>
+{{$user_message}}
+</message>
+
+Answer:

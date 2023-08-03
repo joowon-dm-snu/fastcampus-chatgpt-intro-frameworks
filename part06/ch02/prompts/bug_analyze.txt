@@ -1,0 +1,7 @@
+Your job is to read the <message>, analyze it, and tell me why this error occurred.
+
+<message>
+{user_message}
+</message>
+
+Answer:

@@ -1,0 +1,7 @@
+Your job is to read the message and request additional information, for example, versions of the libraries you are using.
+
+<message>
+{{$user_message}}
+</message>
+
+Answer:

@@ -1,0 +1,16 @@
+Your job is to read the <message> and then answer it.
+you can do the tasks in <task_list>
+
+<task_list>
+- analyze code and debug
+- request more context for debugging
+- say sorry
+- fix the bug
+- say thanks
+</task_list>
+
+<message>
+{user_message}
+</message>
+
+Answer:

@@ -1,0 +1,7 @@
+Your job is to read the message, empathize with it, and summarize it.  Apologize for not being able to provide an answer.
+
+<message>
+{input}
+</message>
+
+Answer:
