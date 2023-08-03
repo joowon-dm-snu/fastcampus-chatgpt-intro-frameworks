@@ -10,7 +10,8 @@
 
 잘 설치되었을 경우 `poetry --version` 를 실행하였을 때 `Poetry (version 1.*.*)`와 같은 문구가 출력됩니다.
 
-만약 Poetry가 익숙하지 않고 설치에 어려움을 겪으실 경우를 대비하여 requirements.txt 도 같이 깃허브에 올려두었습니다. `2. Poetry 가상 환경 설치 및 활성화` 는 건너뛰고 `pip install -r requirements.txt` 를 통해 익숙한 방법으로 설치해주셔도 괜찮습니다.
+만약 Poetry가 익숙하지 않고 설치에 어려움을 겪으실 경우를 대비하여 requirements.txt 도 같이 깃허브에 올려두었습니다.  
+`2. Poetry 가상 환경 설치 및 활성화` 는 건너뛰고 `pip install -r requirements.txt` 를 통해 익숙한 방법으로 설치해주셔도 괜찮습니다.
 
 ---
 
@@ -25,9 +26,10 @@
 
 ---
 
-### 3. Gradio 실행
-강의에서 챗봇 화면 등의 실습 UI를 위해 Gradio 패키지를 사용하고 있습니다.
-`poetry` 를 통해서 잘 설치되지 않는 사례가 많기 때문에 `poetry shell`로 가상환경을 활성화 하고, `pip install streamlit==1.25.0` 를 통해 설치해주시면 됩니다.
+### 3. Streamlit 실행
+강의에서 챗봇 화면 등의 실습 UI를 위해 Streamlit 패키지를 사용하고 있습니다.  
+`poetry` 를 통해서 잘 설치되지 않는 사례가 많기 때문에,  
+`poetry shell`로 가상환경을 활성화 하고, `pip install streamlit==1.25.0` 를 통해 설치해주시면 됩니다.
 
 강의에서 사용하는 ui 파일의 목록은 아래와 같습니다.
 - `part02/_ui/app.py`: 기본적인 챗봇 ui 입니다.
