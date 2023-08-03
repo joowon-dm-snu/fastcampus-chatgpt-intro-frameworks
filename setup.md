@@ -57,3 +57,10 @@
 예를 들어
 - `fastcampus-chatgpt-intro-frameworks/part02` 디렉터리에 있다면 `uvicorn chapter03.generation_3:app --reload` 로 실행
 - `fastcampus-chatgpt-intro-frameworks` 디렉터리에 있다면 `uvicorn part02.chapter03.generation_3:app --reload` 로 실행
+  
+---
+
+### 5. ChromaDB 설치
+강의에서 Part06부터 벡터 데이터베이스에 대한 내용을 다루며, 오픈소스인 ChromaDB를 활용하여 실습합니다.  
+ChromaDB가 0.4.0 버전에서 큰 변경이 있었기 때문에 꼭 `0.4.0` 이상을 사용해주세요.  
+설치는 `poetry`로 잘 안되는 사례가 있어 `pip install chromadb==0.4.0`로 설치해주시면 됩니다.  
