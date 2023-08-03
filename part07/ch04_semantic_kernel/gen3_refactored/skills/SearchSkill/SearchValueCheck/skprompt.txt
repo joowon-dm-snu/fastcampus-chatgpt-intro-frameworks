@@ -1,0 +1,12 @@
+Your job is to read the <message>, If <search_results> can help you to answer the <message>, answer Y.
+
+<message>
+{{$user_message}}
+</message>
+
+<search_results>
+{{$web_search_results}}
+</search_results>
+
+You must answer Y or N.
+Answer:

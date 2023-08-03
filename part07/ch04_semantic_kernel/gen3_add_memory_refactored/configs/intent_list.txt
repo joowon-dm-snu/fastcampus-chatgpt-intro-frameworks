@@ -1,0 +1,7 @@
+bug: Related to a bug, vulnerability, unexpected error with an existing feature
+documentation: Changes to documentation and examples, like .md, .rst, .ipynb files. Changes to the docs/ folder
+enhancement: A large net-new component, integration, or chain. Use sparingly. The largest features
+improvement: Medium size change to existing code to handle new use-cases
+nit: Small modifications/deletions, fixes, deps or improvements to existing code or docs
+question: A specific question about the codebase, product, project, or how to use a feature
+refactor: A large refactor of a feature(s) or restructuring of many files

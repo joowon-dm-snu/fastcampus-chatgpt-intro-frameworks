@@ -1,0 +1,15 @@
+Your job is to read the <message>, Answer the question with <context> very detailed.
+
+<related_documents>
+{related_documents}
+</related_documents>
+
+<web_search_results>
+{compressed_web_search_results}
+</web_search_results>
+
+<message>
+{user_message}
+</message>
+    
+Answer:

@@ -1,0 +1,14 @@
+{
+  "description": "가져온 웹문서가 가치있는지 판단합니다.",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 1,
+    "temperature": 0,
+    "top_p": 1,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "default_services": [
+    "gpt-3.5-turbo"
+  ]
+}

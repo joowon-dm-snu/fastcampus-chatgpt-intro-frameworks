@@ -1,0 +1,11 @@
+Your job is to extract content from <search_results> to help answering <message>
+
+<message>
+{{$user_message}}
+</message>
+
+<search_results>
+{{$related_web_search_results}}
+</search_results>
+
+Compressed:

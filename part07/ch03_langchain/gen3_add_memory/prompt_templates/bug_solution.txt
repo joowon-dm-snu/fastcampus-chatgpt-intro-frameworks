@@ -1,0 +1,15 @@
+Your job is to read the <message> and fix error.
+
+<message>
+{user_message}
+</message>
+
+<bug_analysis>
+{bug_analysis}
+</bug_analysis>
+
+<related_documents>
+{related_documents}
+</related_documents>
+
+Answer:

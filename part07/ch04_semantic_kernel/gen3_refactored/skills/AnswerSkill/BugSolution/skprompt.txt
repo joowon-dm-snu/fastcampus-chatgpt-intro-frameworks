@@ -1,0 +1,15 @@
+Your job is to read the <message> and fix error.
+
+<related_materials>
+{{$related_materials}}
+</related_materials>
+
+<bug_analysis>
+{{$bug_analysis}}
+</bug_analysis>
+
+<message>
+{{$user_message}}
+</message>
+
+Answer:
