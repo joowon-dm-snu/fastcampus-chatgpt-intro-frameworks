@@ -3,7 +3,7 @@
 
 파트 7에서 활용하는 ChromaDB의 경우, 0.4.0 버전에서 대규모 업데이트가 있었기 때문에  
 langchain, semantic-kernel 버전이 맞지 않을 경우 업로드 실패하는 호환성 문제가 있습니다.  
-본 강의는 `langchain==0.0.250`, `semantic_kernel==0.3.5.dev0`, `chromadb>=0.4.4` 를 사용중입니다.  
+본 강의는 `langchain==0.0.246`, `semantic_kernel==0.3.5.dev0`, `chromadb==0.4.4` 를 사용중입니다.  
 
 23-08-22 이전에 패키지들을 설치하셨을 경우,  
 `poetry`로 설치하신분은 문제가 없으나 `requirements.txt` 로 설치하셨던 분은 오류가 발생하니 업데이트 부탁드립니다.   
